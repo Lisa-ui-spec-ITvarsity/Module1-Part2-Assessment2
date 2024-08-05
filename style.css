@@ -1,0 +1,202 @@
+body{
+    background-image: url('images/mall1.jpg') ;
+    background-size: cover;
+}
+/*=============HEADER============*/
+#header{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/background\ color.png');
+    
+}
+
+#header img{
+        display: block;
+        margin: auto;
+        height: 70%;
+        padding-top: 15px;
+
+}
+/*=============TABS-TOP============*/
+
+#tabs-top{
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    position: fixed;
+}
+#tabs-top a{
+    float:left;
+    display: block;
+    width: 15%;
+    height: 35px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*=============Tabs- Bottom============*/
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index:500;
+    width: 100%;
+    height: 40px;
+    background-color:grey;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 30%;
+    height:  35px;
+    font-weight: 700;
+    color:whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+
+/*=============Main Home============*/
+
+#main-home{
+    padding: right;
+    margin: 10%;
+  
+}
+
+#main-home img{
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    padding-top: 10%;
+   padding-right: 15px;
+}
+
+/*=============Main============*/
+
+#main{
+        margin-top: 119px;
+        background-repeat: repeat-y;
+        background-size: cover;
+}
+    
+#content{
+        padding-top: 1px;
+        padding-bottom: 50px;
+}
+
+
+/*=============Info-Box============*/
+
+a.info-box{
+        text-decoration: none;
+        background: rgba(255,255,255,.8);
+        width           : 90%;
+        height          : 100px;
+        display         : block;
+        margin          : auto;
+        margin-top      : 12px;
+        padding         : 1px;
+        border: 3px solid rgb(143, 143, 143);
+        border-radius: 10px;
+}
+
+.info-box img{
+    height : 70px;
+    margin : 10px;
+    float  : left;
+}
+
+.info-box h3{
+    padding : 0;
+    margin-bottom :0;
+    width : 90%;
+    color : rgb(61, 61, 61);
+}
+
+.info-box p{
+    margin  : 0;
+    padding : 0;
+    width   : 90%;
+    color   : black;
+}
+
+.info-box img.right{
+    float      : right;
+    margin-top : 25px;
+    height     40px; 
+}
+
+/*=============Info-Box-Full============*/
+
+#info-box-full{
+        background-color : rgba(255, 255, 255, .8) ;
+        width   : 90%;
+        display : block;
+        margin  : auto;
+        margin-top : 12px;
+        padding: 10px;
+        border: 3px solid rgb(143, 143, 143);
+        border-radius: 10px;
+      
+}
+
+#info-box-full h3{
+    text-align : center;
+}
+
+/*=============FORM============*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px  0;
+    border: 1px solid #929292
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+    margin: auto;
+}
+
+.button{
+    display: block;
+    width: 20%;
+    background-color: rgb(18, 18, 61) ;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size:large;
+    font-weight: 600;
+    margin: 12px 0;
+    padding :8px 0;
+    height: 30px;
+
+}
+
+h2{
+    
+    color:white;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
